@@ -1,0 +1,512 @@
+.accordion-header {
+   
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #414141;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  }
+  .div-passport {
+    color: #414141;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .smaeer.yadav {
+    color: #414141;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  .input-feild {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .next-btn {
+    color: #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f27b1a;
+    width: 122px;
+    max-width: 100%;
+    margin: 20px 0 12px;
+    padding: 11px 20px;
+    font: 700 12px/18px Open Sans, sans-serif;
+    border: #f27b1a;
+  }
+  .accordion-item {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+    position: relative;
+  }
+  .accordion-content {
+   
+    padding: 16px;
+  }
+  .expiry {
+    border-radius: 4px;
+    border: 1px solid #6E8CA6;
+    background: #FFF;
+    width: 180px;
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 15px;
+    color: #414141;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: 0;
+    position: relative;
+  }
+  .new-code {
+    margin-right: 35px;
+  }
+  .div-hello {
+    margin-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .fire {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .App {
+    text-align: center;
+  }
+
+  /* Nested Accordion.css */
+
+.Nested-accordion-item {
+  margin-bottom: 1px;
+  border: 1px solid #80808059;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.Nested-accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius:5px;
+}
+
+.Nested-accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.Nested-accordion-item:hover .Nested-accordion-header {
+  background-color: #ddd;
+}
+
+.nested-accordion {
+  margin-left: 20px; /* Adjust the margin for nested accordions */
+}
+.accor-container{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+/* multiple accordion */
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.accordions {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.accordions:hover {
+  background-color: #2980b9;
+}
+
+.accordions.active {
+  background-color: #2980b9;
+}
+
+.accordion-contents {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-contents.show {
+  max-height: 500px; /* Adjust the max-height as needed */
+}
+
+p {
+  margin-top: 0;
+}
+
+/* Single Nested Accordion */
+
+.accor-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.Single-accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.Single-accordion-header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Single-accordion-header span {
+  font-size: 18px;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Style for nested accordions */
+.Single-accordion-item .Single-accordion-item {
+  margin-left: 20px;
+  border: 1px solid #ddd;
+}
+
+.Single-accordion-item .Single-accordion-header {
+  background-color: #eaeaea;
+}
+
+.Single-accordion-item .Single-accordion-content {
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+
+/* Expanding Accordion */
+
+.accordion-expend {
+  display: flex;
+  overflow-x: auto;
+  margin-left:40px;
+}
+
+.card-expend {
+  flex: 0 0 150px; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: flex 0.3s;
+}
+
+.card-expend.expanded {
+  flex: 0 0 300px;
+}
+
+.card-header-expend {
+  padding: 8px;
+  background-color: #f1f1f1;
+  display: flex;
+    justify-content: space-between;
+}
+
+.card-content-expend {
+  display: none;
+  padding: 8px;
+}
+
+.card-expend.expanded .card-content-expend {
+  display: block;
+}
+
+.accordion-expend-header{
+  margin-left:40px;
+}
+
+
+/* horizondal hover accordion */
+.horizontal-accordion {
+  display: flex;
+}
+
+.horizontal-accordion-item {
+  flex: 1;
+  border: 1px solid #ddd;
+  margin-right: 8px;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+.horizontal-accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.horizontal-accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.horizontal-accordion-item:hover {
+  background-color: #e0e0e0;
+}
+
+.horizontal-accordion-item.open {
+  width: auto;
+}
+
+/* Accordion using expand and collabse button */
+.container-react {
+  min-height: 100%;
+  padding: 30px;
+  font-family: 'PT Sans';
+  text-align: center;
+}
+
+.container-react h1 {
+  text-align: center;
+  color: #1569a8;
+}
+
+.btn-react {
+  display: inline-block;
+  margin-bottom: 20px;
+  border: 1px solid #1569a8;
+  background: white;
+  color: #1569a8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-react:hover {
+  background: #1569a8;
+  color: white;
+  transition: .5s;
+}
+
+.accordion-react {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.accordion-react .title {
+  padding: 30px 30px;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  color: white;
+  position: relative;
+  font-size: 20px;
+  background: #1569a8;
+  margin-bottom: -1px;
+  border-bottom: 1px solid #0e4671;
+  text-align: left;
+}
+
+.accordion-react .title::after {
+  content: "+";
+  font-size: 18px;
+  color: white;
+  transition: transform .5s ease-in-out;
+  position: absolute;
+  right: 30px;
+  font-family: monospace;
+}
+
+.accordion-react .title.is-expanded {
+  transition: background .5s;
+  background: #0e4671;
+}
+
+.accordion-react .title.is-expanded::after {
+  content: "-";
+  transform: rotate(-360deg);
+}
+
+.accordion-react .content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .5s;
+  margin: 0;
+  padding: 0 30px;
+  border: solid 1px #eeeeee;
+  border-top: 0;
+  background: #e8f4fc;
+}
+
+.accordion-react .content p {
+  padding: 30px 0;
+  margin: 0;
+  opacity: 0;
+  transition: .5s;
+}
+
+.accordion-react .content.is-expanded {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.accordion-react .content.is-expanded p {
+  opacity: 1;
+}
+
+.accordion-react:after {
+  width: 100%;
+  height: 10px;
+  display: block;
+  background: #0e4671;
+  content: '';
+}
+
+
+/* Accordion using arrows */
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+}
+
+/* Primary Text Color */
+.text-primary {
+  color: #5a8dee !important;
+}
+
+/* Card Styles */
+.card {
+ 
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #475f7b;
+  overflow: hidden;
+}
+
+/* Accordion Toggle Styles */
+.rc-accordion-toggle {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  justify-content: space-between;
+  background-color: #ebedf0;
+  transition: 0.3s;
+}
+
+.rc-accordion-toggle.active {
+  background-color: #5a8dee;
+}
+
+.rc-accordion-toggle.active .rc-accordion-icon {
+  transform: rotate(180deg);
+  color: #fff;
+}
+
+/* Accordion Card Styles */
+.rc-accordion-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.rc-accordion-card:last-child {
+  margin-bottom: 0;
+}
+
+/* Accordion Title Styles */
+.rc-accordion-title {
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  margin: 10px;
+  color: #475F7B;
+  transition: 0.3s;
+}
+
+.rc-accordion-toggle.active .rc-accordion-title {
+  color: #fff;
+}
+
+/* Accordion Icon Styles */
+.rc-accordion-icon {
+  position: relative;
+  top: 15px;
+  right:15px;
+  color: #475F7B;
+  transition: 0.35s;
+  font-size: 12px;
+}
+
+/* Accordion Body Styles */
+.rc-accordion-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 15px;
+}
+
+.rc-accordion-body p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #727E8C;
+}
+
+/* Accordion Collapse Animation */
+.rc-collapse {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.rc-collapse.show {
+  height: auto;
+}
+.containerer{
+  width:90%;
+  margin:0 auto;
+}
